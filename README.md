@@ -1,16 +1,47 @@
-# React + Vite
+# React_TaskBoard
+Description
+In this assignment, you will build a simple Task Board using React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Functional Requirements: 
 
-## React Compiler
+1. Add Task
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Create a form to add a new task:
+- Title: required
+- Status: todo/in-progress/done
 
-## Expanding the ESLint configuration
+👉 On submit:
+- Add the task to the list
+- Reset/clear the form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Task List
+
+Display a list of tasks:
+- Show: Title, Status
+- Bonus: Provide. a working Delete button for each task
+
+3. Filter & Search
+
+- Search tasks by title. Should support partial matching (e.g., includes)
+- Filter tasks by status: all/todo/in-progress/done
+
+4. Initial Data
+You can use the following array as reference or even initial data for your application:
+
+
+const initialTasks = [
+  { id: '1', title: 'Learn React', status: 'todo' },
+  { id: '2', title: 'Build Todo App', status: 'in-progress' },
+  { id: '3', title: 'Review PR', status: 'done' },
+];
+
+5. Submission
+
+- You are expected to initialize a basic React project yourself (e.g., using Vite, Create React App, etc.)
+- Submit your work by providing a GitHub repository link
+
+Notes:
+- No need for fancy styling, but the UI must be clear and usable
+- No backend required. You can use state or other means to store the data on the front-end side.
