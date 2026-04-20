@@ -42,6 +42,10 @@ const initialTasks = [
 - You are expected to initialize a basic React project yourself (e.g., using Vite, Create React App, etc.)
 - Submit your work by providing a GitHub repository link
 
+# Result
+<img width="1913" height="717" alt="image" src="https://github.com/user-attachments/assets/980b3d47-487a-45d8-96a3-6a060e495337" />
+
+
 Notes:
 - No need for fancy styling, but the UI must be clear and usable
 - No backend required. You can use state or other means to store the data on the front-end side.
