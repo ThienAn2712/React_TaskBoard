@@ -1,9 +1,5 @@
 // Màu badge theo status
-const statusStyle = {
-  'Todo': { background: '#fff3cd', color: '#856404' },
-  'In-progress': { background: '#cce5ff', color: '#004085' },
-  'Done': { background: '#d4edda', color: '#155724' },
-}
+
 
 function TaskList({ tasks, onDeleteTask }) {
   if (tasks.length === 0) {
